@@ -1,0 +1,87 @@
+{"incident": "INC0041332", "time": "2026-07-14T08:04:00", "source": "Monitoring (Dynatrace)", "actor": "Dynatrace", "text": "Failure rate increase on authorisation service"}
+{"incident": "INC0041332", "time": "2026-07-14T08:10:00", "source": "ITSM", "actor": "Marta Ibarra", "text": "INC0041332 opened as P1: Card authorisations failing after load balancer change"}
+{"incident": "INC0041332", "time": "2026-07-14T08:12:00", "source": "Chat bridge", "actor": "Ravi Menon", "text": "Bridge open. TLS handshake errors to the acquirer from the auth pool since 08:02"}
+{"incident": "INC0041332", "time": "2026-07-14T08:14:00", "source": "ITSM", "actor": "Ravi Menon", "text": "Acknowledged by Payments platform"}
+{"incident": "INC0041332", "time": "2026-07-14T08:20:00", "source": "Stakeholder update", "actor": "Sara Lindqvist", "text": "Initial update sent to executive committee, branches, contact centre"}
+{"incident": "INC0041332", "time": "2026-07-14T08:23:00", "source": "Status page", "actor": "Marta Ibarra", "text": "Status page: Card payments degraded"}
+{"incident": "INC0041332", "time": "2026-07-14T08:41:00", "source": "Chat bridge", "actor": "Ravi Menon", "text": "Last change on the pool: SSL profile update last night (CHG0031102)"}
+{"incident": "INC0041332", "time": "2026-07-14T08:48:00", "source": "Stakeholder update", "actor": "Sara Lindqvist", "text": "Update sent to executive committee, branches, contact centre"}
+{"incident": "INC0041332", "time": "2026-07-14T09:05:00", "source": "Chat bridge", "actor": "Marta Ibarra", "text": "Decision: roll back the SSL profile on the auth pool"}
+{"incident": "INC0041332", "time": "2026-07-14T09:15:00", "source": "Stakeholder update", "actor": "Sara Lindqvist", "text": "Update sent to executive committee, branches, contact centre"}
+{"incident": "INC0041332", "time": "2026-07-14T09:35:00", "source": "Chat bridge", "actor": "Ravi Menon", "text": "Rollback done, authorisation success rate back to 99.6%"}
+{"incident": "INC0041332", "time": "2026-07-14T09:35:00", "source": "ITSM", "actor": "Ravi Menon", "text": "Service restored (mitigated)"}
+{"incident": "INC0041332", "time": "2026-07-14T09:40:00", "source": "Stakeholder update", "actor": "Sara Lindqvist", "text": "Update sent to executive committee, branches, contact centre"}
+{"incident": "INC0041332", "time": "2026-07-14T10:05:00", "source": "Stakeholder update", "actor": "Sara Lindqvist", "text": "Update sent to executive committee, branches, contact centre"}
+{"incident": "INC0041332", "time": "2026-07-14T10:30:00", "source": "Stakeholder update", "actor": "Sara Lindqvist", "text": "Update sent to executive committee, branches, contact centre"}
+{"incident": "INC0041332", "time": "2026-07-14T10:40:00", "source": "ITSM", "actor": "Ravi Menon", "text": "Resolved"}
+{"incident": "INC0041332", "time": "2026-07-14T10:42:00", "source": "Stakeholder update", "actor": "Sara Lindqvist", "text": "Resolution notice sent to executive committee, branches, contact centre"}
+{"incident": "INC0042577", "time": "2026-08-04T08:12:00", "source": "Service desk", "actor": "Contact centre", "text": "First customer calls: login page spins and times out"}
+{"incident": "INC0042577", "time": "2026-08-04T08:20:00", "source": "Service desk", "actor": "Social media team", "text": "Customers posting that online banking is down"}
+{"incident": "INC0042577", "time": "2026-08-04T08:38:00", "source": "Service desk", "actor": "Service desk lead", "text": "34 calls in 25 minutes, escalating to the major incident manager"}
+{"incident": "INC0042577", "time": "2026-08-04T08:55:00", "source": "ITSM", "actor": "Service desk", "text": "INC0042577 opened as P1: Online banking logins failing"}
+{"incident": "INC0042577", "time": "2026-08-04T09:00:00", "source": "Chat bridge", "actor": "Elena Ruiz", "text": "Bridge open. Identity provider answering, session store not accepting writes"}
+{"incident": "INC0042577", "time": "2026-08-04T09:02:00", "source": "ITSM", "actor": "Elena Ruiz", "text": "Acknowledged by Digital channels"}
+{"incident": "INC0042577", "time": "2026-08-04T09:05:00", "source": "Stakeholder update", "actor": "Tom Becker", "text": "Initial update sent to executive committee, branches, contact centre"}
+{"incident": "INC0042577", "time": "2026-08-04T09:08:00", "source": "Status page", "actor": "Daniel Okafor", "text": "Status page: Online banking degraded"}
+{"incident": "INC0042577", "time": "2026-08-04T09:31:00", "source": "Monitoring (Grafana)", "actor": "Grafana", "text": "Login success rate below 90% (synthetic check added during the incident)"}
+{"incident": "INC0042577", "time": "2026-08-04T09:35:00", "source": "Stakeholder update", "actor": "Tom Becker", "text": "Update sent to executive committee, branches, contact centre"}
+{"incident": "INC0042577", "time": "2026-08-04T09:40:00", "source": "Chat bridge", "actor": "Elena Ruiz", "text": "Session store volume at 100%; no disk alert configured on these nodes"}
+{"incident": "INC0042577", "time": "2026-08-04T10:00:00", "source": "Stakeholder update", "actor": "Tom Becker", "text": "Update sent to executive committee, branches, contact centre"}
+{"incident": "INC0042577", "time": "2026-08-04T10:20:00", "source": "Chat bridge", "actor": "Elena Ruiz", "text": "Old sessions purged, volume extended, logins working"}
+{"incident": "INC0042577", "time": "2026-08-04T10:20:00", "source": "ITSM", "actor": "Elena Ruiz", "text": "Service restored (mitigated)"}
+{"incident": "INC0042577", "time": "2026-08-04T10:25:00", "source": "Stakeholder update", "actor": "Tom Becker", "text": "Update sent to executive committee, branches, contact centre"}
+{"incident": "INC0042577", "time": "2026-08-04T10:55:00", "source": "Stakeholder update", "actor": "Tom Becker", "text": "Update sent to executive committee, branches, contact centre"}
+{"incident": "INC0042577", "time": "2026-08-04T11:05:00", "source": "ITSM", "actor": "Elena Ruiz", "text": "Resolved"}
+{"incident": "INC0042577", "time": "2026-08-04T11:08:00", "source": "Stakeholder update", "actor": "Tom Becker", "text": "Resolution notice sent to executive committee, branches, contact centre"}
+{"incident": "INC0043656", "time": "2026-08-21T07:41:00", "source": "Monitoring (SolarWinds)", "actor": "SolarWinds", "text": "Node down: SIP trunk interface on turret-gw-02"}
+{"incident": "INC0043656", "time": "2026-08-21T07:43:00", "source": "Trading desk (phone)", "actor": "Rates desk head", "text": "No dial tone on external lines, internal calls work"}
+{"incident": "INC0043656", "time": "2026-08-21T07:48:00", "source": "ITSM", "actor": "Lucía Prieto", "text": "INC0043656 opened as P1: Trading turrets without external lines on the rates desk"}
+{"incident": "INC0043656", "time": "2026-08-21T07:52:00", "source": "ITSM", "actor": "Pablo Serrano", "text": "Acknowledged by Voice & trading floor"}
+{"incident": "INC0043656", "time": "2026-08-21T07:55:00", "source": "Chat bridge", "actor": "Pablo Serrano", "text": "Bridge open. Carrier SIP trunk down on gateway 2; gateway 1 healthy"}
+{"incident": "INC0043656", "time": "2026-08-21T08:05:00", "source": "Stakeholder update", "actor": "Lucía Prieto", "text": "Initial update sent to business owners, desk heads"}
+{"incident": "INC0043656", "time": "2026-08-21T08:30:00", "source": "Stakeholder update", "actor": "Lucía Prieto", "text": "Update sent to business owners, desk heads"}
+{"incident": "INC0043656", "time": "2026-08-21T08:40:00", "source": "Chat bridge", "actor": "Pablo Serrano", "text": "Gateway 1 is not in the automatic failover group for the rates desk lines"}
+{"incident": "INC0043656", "time": "2026-08-21T09:10:00", "source": "Chat bridge", "actor": "Pablo Serrano", "text": "Lines re-homed to gateway 1 manually, dial tone back on all turrets"}
+{"incident": "INC0043656", "time": "2026-08-21T09:10:00", "source": "ITSM", "actor": "Pablo Serrano", "text": "Service restored (mitigated)"}
+{"incident": "INC0043656", "time": "2026-08-21T10:05:00", "source": "Stakeholder update", "actor": "Lucía Prieto", "text": "Update sent to business owners, desk heads"}
+{"incident": "INC0043656", "time": "2026-08-21T12:30:00", "source": "Chat bridge", "actor": "Pablo Serrano", "text": "Carrier restored the trunk; lines moved back and tested"}
+{"incident": "INC0043656", "time": "2026-08-21T12:30:00", "source": "ITSM", "actor": "Pablo Serrano", "text": "Resolved"}
+{"incident": "INC0044320", "time": "2026-09-02T13:12:00", "source": "Monitoring (Datadog)", "actor": "Datadog", "text": "5xx error rate above 5% on api-gw-mob-01"}
+{"incident": "INC0044320", "time": "2026-09-02T13:20:00", "source": "ITSM", "actor": "Daniel Okafor", "text": "INC0044320 opened as P2: Mobile app requests failing with 502 errors"}
+{"incident": "INC0044320", "time": "2026-09-02T13:30:00", "source": "Chat bridge", "actor": "Hannah Cole", "text": "Bridge open. Gateway workers restarting under load, same pattern as last week"}
+{"incident": "INC0044320", "time": "2026-09-02T13:41:00", "source": "ITSM", "actor": "Hannah Cole", "text": "Acknowledged by Digital channels"}
+{"incident": "INC0044320", "time": "2026-09-02T13:45:00", "source": "Stakeholder update", "actor": "Tom Becker", "text": "Initial update sent to executive committee, branches, contact centre"}
+{"incident": "INC0044320", "time": "2026-09-02T13:48:00", "source": "Status page", "actor": "Daniel Okafor", "text": "Status page: Mobile banking API degraded"}
+{"incident": "INC0044320", "time": "2026-09-02T14:40:00", "source": "Stakeholder update", "actor": "Tom Becker", "text": "Update sent to executive committee, branches, contact centre"}
+{"incident": "INC0044320", "time": "2026-09-02T15:05:00", "source": "Chat bridge", "actor": "Hannah Cole", "text": "Worker pool doubled, errors back under 0.5%"}
+{"incident": "INC0044320", "time": "2026-09-02T15:05:00", "source": "ITSM", "actor": "Hannah Cole", "text": "Service restored (mitigated)"}
+{"incident": "INC0044320", "time": "2026-09-02T15:30:00", "source": "Stakeholder update", "actor": "Tom Becker", "text": "Update sent to executive committee, branches, contact centre"}
+{"incident": "INC0044320", "time": "2026-09-02T16:25:00", "source": "Stakeholder update", "actor": "Tom Becker", "text": "Update sent to executive committee, branches, contact centre"}
+{"incident": "INC0044320", "time": "2026-09-02T17:20:00", "source": "Stakeholder update", "actor": "Tom Becker", "text": "Update sent to executive committee, branches, contact centre"}
+{"incident": "INC0044320", "time": "2026-09-02T17:50:00", "source": "ITSM", "actor": "Hannah Cole", "text": "Resolved"}
+{"incident": "INC0044320", "time": "2026-09-02T17:55:00", "source": "Stakeholder update", "actor": "Tom Becker", "text": "Resolution notice sent to executive committee, branches, contact centre"}
+{"incident": "INC0044652", "time": "2026-09-18T02:10:00", "source": "Monitoring (Grafana)", "actor": "Grafana", "text": "MQ queue depth above 5,000 on swift-mq-01"}
+{"incident": "INC0044652", "time": "2026-09-18T02:40:00", "source": "Monitoring (Grafana)", "actor": "Grafana", "text": "MQ queue depth above 20,000 on swift-mq-01"}
+{"incident": "INC0044652", "time": "2026-09-18T03:02:00", "source": "ITSM", "actor": "Marta Ibarra", "text": "INC0044652 opened as P2: SWIFT outbound queue not draining overnight"}
+{"incident": "INC0044652", "time": "2026-09-18T03:30:00", "source": "Stakeholder update", "actor": "Sara Lindqvist", "text": "Initial update sent to business owners, desk heads"}
+{"incident": "INC0044652", "time": "2026-09-18T03:40:00", "source": "ITSM", "actor": "Jon Etxeberria", "text": "Acknowledged by Payments platform"}
+{"incident": "INC0044652", "time": "2026-09-18T03:45:00", "source": "Chat bridge", "actor": "Jon Etxeberria", "text": "Bridge open. Sender channel to the SWIFT interface stopped after a certificate reload"}
+{"incident": "INC0044652", "time": "2026-09-18T04:25:00", "source": "Stakeholder update", "actor": "Sara Lindqvist", "text": "Update sent to business owners, desk heads"}
+{"incident": "INC0044652", "time": "2026-09-18T05:10:00", "source": "Chat bridge", "actor": "Jon Etxeberria", "text": "Channel restarted, queue draining at 900 messages a minute"}
+{"incident": "INC0044652", "time": "2026-09-18T05:10:00", "source": "ITSM", "actor": "Jon Etxeberria", "text": "Service restored (mitigated)"}
+{"incident": "INC0044652", "time": "2026-09-18T05:15:00", "source": "Stakeholder update", "actor": "Sara Lindqvist", "text": "Update sent to business owners, desk heads"}
+{"incident": "INC0044652", "time": "2026-09-18T06:15:00", "source": "Stakeholder update", "actor": "Sara Lindqvist", "text": "Update sent to business owners, desk heads"}
+{"incident": "INC0044652", "time": "2026-09-18T07:05:00", "source": "Stakeholder update", "actor": "Sara Lindqvist", "text": "Update sent to business owners, desk heads"}
+{"incident": "INC0044652", "time": "2026-09-18T07:30:00", "source": "ITSM", "actor": "Jon Etxeberria", "text": "Resolved"}
+{"incident": "INC0044652", "time": "2026-09-18T07:35:00", "source": "Stakeholder update", "actor": "Sara Lindqvist", "text": "Resolution notice sent to business owners, desk heads"}
+{"incident": "INC0045399", "time": "2026-09-29T14:31:00", "source": "Monitoring (Dynatrace)", "actor": "Dynatrace", "text": "Response time degradation on market data handler"}
+{"incident": "INC0045399", "time": "2026-09-29T14:36:00", "source": "ITSM", "actor": "Lucía Prieto", "text": "INC0045399 opened as P1: Market data feed stale on pricing screens"}
+{"incident": "INC0045399", "time": "2026-09-29T14:38:00", "source": "Chat bridge", "actor": "Nora Haddad", "text": "Bridge open. Feed handler stuck on a malformed message from the vendor"}
+{"incident": "INC0045399", "time": "2026-09-29T14:40:00", "source": "ITSM", "actor": "Nora Haddad", "text": "Acknowledged by Trading systems"}
+{"incident": "INC0045399", "time": "2026-09-29T14:45:00", "source": "Stakeholder update", "actor": "Sara Lindqvist", "text": "Initial update sent to business owners, desk heads"}
+{"incident": "INC0045399", "time": "2026-09-29T15:12:00", "source": "Stakeholder update", "actor": "Sara Lindqvist", "text": "Update sent to business owners, desk heads"}
+{"incident": "INC0045399", "time": "2026-09-29T15:20:00", "source": "Chat bridge", "actor": "Nora Haddad", "text": "Desks on the backup feed; handler restarted with the message skipped"}
+{"incident": "INC0045399", "time": "2026-09-29T15:20:00", "source": "ITSM", "actor": "Nora Haddad", "text": "Service restored (mitigated)"}
+{"incident": "INC0045399", "time": "2026-09-29T15:35:00", "source": "Stakeholder update", "actor": "Sara Lindqvist", "text": "Update sent to business owners, desk heads"}
+{"incident": "INC0045399", "time": "2026-09-29T16:05:00", "source": "ITSM", "actor": "Nora Haddad", "text": "Resolved"}
+{"incident": "INC0045399", "time": "2026-09-29T16:08:00", "source": "Stakeholder update", "actor": "Sara Lindqvist", "text": "Resolution notice sent to business owners, desk heads"}

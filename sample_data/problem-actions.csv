@@ -1,0 +1,9 @@
+Action ID,Problem,Incident,Action,Owner,Due date,Status,Closed
+PIA-101,PRB0007012,INC0041332,Add an acquirer handshake test to the load balancer pre-change checklist,Ravi Menon,2026-07-31,Closed,2026-07-29
+PIA-102,PRB0007012,INC0041332,CAB: rollback plan and test evidence required for changes on payment pools,Change manager,2026-07-24,Closed,2026-07-22
+PIA-103,PRB0007040,INC0042577,"Synthetic login journey every 2 minutes from two locations, paging the on-call",Monitoring lead,2026-08-31,Open,
+PIA-104,PRB0007040,INC0042577,Disk usage alert at 80% on the identity session store nodes,Elena Ruiz,2026-08-14,Closed,2026-08-12
+PIA-105,PRB0007066,INC0043656,Add gateway 1 to the automatic failover group for all trading desk lines and test it,Pablo Serrano,2026-09-15,In progress,
+PIA-106,PRB0007066,INC0043656,Quarterly failover test of the turret gateways with the carrier,Voice & trading floor,2026-10-30,Open,
+PIA-107,PRB0007101,INC0044652,"Route MQ queue depth alerts to the overnight on-call phone, not only the console",Monitoring lead,2026-09-30,Open,
+PIA-108,PRB0007101,INC0044652,Runbook: restart the SWIFT sender channel after a certificate reload,Jon Etxeberria,2026-10-15,Open,

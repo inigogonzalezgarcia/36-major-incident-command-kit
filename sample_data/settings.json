@@ -1,0 +1,61 @@
+{
+  "organisation": "Woodgrove Bank · IT operations",
+  "as_of": "2026-10-05 09:00",
+  "major_priorities": [
+    "P1"
+  ],
+  "targets": {
+    "P1": {
+      "ack": 15,
+      "mitigate": 120,
+      "resolve": 240
+    },
+    "P2": {
+      "ack": 30,
+      "mitigate": 240,
+      "resolve": 480
+    },
+    "P3": {
+      "ack": 60,
+      "mitigate": 480,
+      "resolve": 1440
+    },
+    "P4": {
+      "ack": 240,
+      "mitigate": 1440,
+      "resolve": 4320
+    }
+  },
+  "comms_interval_min": {
+    "P1": 30,
+    "P2": 60
+  },
+  "first_update_min": {
+    "P1": 15,
+    "P2": 30
+  },
+  "detect_gap_min": 15,
+  "open_lag_min": 15,
+  "alert_lookback_min": 120,
+  "change_lookback_hours": 72,
+  "pir_business_days": 5,
+  "holidays": [
+    "2026-08-15",
+    "2026-10-12"
+  ],
+  "repeat_days": 30,
+  "required_roles": [
+    "commander",
+    "comms_lead",
+    "tech_lead"
+  ],
+  "action_critical_days": 30,
+  "owners": {
+    "detection": "Monitoring lead",
+    "response": "Major incident manager",
+    "comms": "Major incident manager",
+    "change": "Change manager",
+    "review": "Problem manager",
+    "actions": "Problem manager"
+  }
+}

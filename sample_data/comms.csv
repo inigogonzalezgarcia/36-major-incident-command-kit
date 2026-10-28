@@ -1,0 +1,33 @@
+Incident,Time,Audience,Channel,Type,Summary
+INC0041332,2026-07-14 08:20,"Executive committee, branches, contact centre",Email + Teams,Initial,Card payments: card authorisations failing after load balancer change; next update in 30 minutes
+INC0041332,2026-07-14 08:48,"Executive committee, branches, contact centre",Email + Teams,Update,Card payments: card authorisations failing after load balancer change; next update in 30 minutes
+INC0041332,2026-07-14 09:15,"Executive committee, branches, contact centre",Email + Teams,Update,Card payments: card authorisations failing after load balancer change; next update in 30 minutes
+INC0041332,2026-07-14 09:40,"Executive committee, branches, contact centre",Email + Teams,Update,Card payments: card authorisations failing after load balancer change; next update in 30 minutes
+INC0041332,2026-07-14 10:05,"Executive committee, branches, contact centre",Email + Teams,Update,Card payments: card authorisations failing after load balancer change; next update in 30 minutes
+INC0041332,2026-07-14 10:30,"Executive committee, branches, contact centre",Email + Teams,Update,Card payments: card authorisations failing after load balancer change; next update in 30 minutes
+INC0041332,2026-07-14 10:42,"Executive committee, branches, contact centre",Email + Teams,Resolved,Resolved: Card payments working normally since 10:40; review to follow
+INC0042577,2026-08-04 09:05,"Executive committee, branches, contact centre",Email + Teams,Initial,Online banking: online banking logins failing; next update in 30 minutes
+INC0042577,2026-08-04 09:35,"Executive committee, branches, contact centre",Email + Teams,Update,Online banking: online banking logins failing; next update in 30 minutes
+INC0042577,2026-08-04 10:00,"Executive committee, branches, contact centre",Email + Teams,Update,Online banking: online banking logins failing; next update in 30 minutes
+INC0042577,2026-08-04 10:25,"Executive committee, branches, contact centre",Email + Teams,Update,Online banking: online banking logins failing; next update in 30 minutes
+INC0042577,2026-08-04 10:55,"Executive committee, branches, contact centre",Email + Teams,Update,Online banking: online banking logins failing; next update in 30 minutes
+INC0042577,2026-08-04 11:08,"Executive committee, branches, contact centre",Email + Teams,Resolved,Resolved: Online banking working normally since 11:05; review to follow
+INC0043656,2026-08-21 08:05,"Business owners, desk heads",Email + Teams,Initial,Trader voice: trading turrets without external lines on the rates desk; next update in 30 minutes
+INC0043656,2026-08-21 08:30,"Business owners, desk heads",Email + Teams,Update,Trader voice: trading turrets without external lines on the rates desk; next update in 30 minutes
+INC0043656,2026-08-21 10:05,"Business owners, desk heads",Email + Teams,Update,Trader voice: trading turrets without external lines on the rates desk; next update in 30 minutes
+INC0044320,2026-09-02 13:45,"Executive committee, branches, contact centre",Email + Teams,Initial,Mobile banking API: mobile app requests failing with 502 errors; next update in 60 minutes
+INC0044320,2026-09-02 14:40,"Executive committee, branches, contact centre",Email + Teams,Update,Mobile banking API: mobile app requests failing with 502 errors; next update in 60 minutes
+INC0044320,2026-09-02 15:30,"Executive committee, branches, contact centre",Email + Teams,Update,Mobile banking API: mobile app requests failing with 502 errors; next update in 60 minutes
+INC0044320,2026-09-02 16:25,"Executive committee, branches, contact centre",Email + Teams,Update,Mobile banking API: mobile app requests failing with 502 errors; next update in 60 minutes
+INC0044320,2026-09-02 17:20,"Executive committee, branches, contact centre",Email + Teams,Update,Mobile banking API: mobile app requests failing with 502 errors; next update in 60 minutes
+INC0044320,2026-09-02 17:55,"Executive committee, branches, contact centre",Email + Teams,Resolved,Resolved: Mobile banking API working normally since 17:50; review to follow
+INC0044652,2026-09-18 03:30,"Business owners, desk heads",Email + Teams,Initial,Payments hub: swift outbound queue not draining overnight; next update in 60 minutes
+INC0044652,2026-09-18 04:25,"Business owners, desk heads",Email + Teams,Update,Payments hub: swift outbound queue not draining overnight; next update in 60 minutes
+INC0044652,2026-09-18 05:15,"Business owners, desk heads",Email + Teams,Update,Payments hub: swift outbound queue not draining overnight; next update in 60 minutes
+INC0044652,2026-09-18 06:15,"Business owners, desk heads",Email + Teams,Update,Payments hub: swift outbound queue not draining overnight; next update in 60 minutes
+INC0044652,2026-09-18 07:05,"Business owners, desk heads",Email + Teams,Update,Payments hub: swift outbound queue not draining overnight; next update in 60 minutes
+INC0044652,2026-09-18 07:35,"Business owners, desk heads",Email + Teams,Resolved,Resolved: Payments hub working normally since 07:30; review to follow
+INC0045399,2026-09-29 14:45,"Business owners, desk heads",Email + Teams,Initial,Market data: market data feed stale on pricing screens; next update in 30 minutes
+INC0045399,2026-09-29 15:12,"Business owners, desk heads",Email + Teams,Update,Market data: market data feed stale on pricing screens; next update in 30 minutes
+INC0045399,2026-09-29 15:35,"Business owners, desk heads",Email + Teams,Update,Market data: market data feed stale on pricing screens; next update in 30 minutes
+INC0045399,2026-09-29 16:08,"Business owners, desk heads",Email + Teams,Resolved,Resolved: Market data working normally since 16:05; review to follow

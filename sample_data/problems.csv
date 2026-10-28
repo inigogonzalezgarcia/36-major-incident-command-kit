@@ -1,0 +1,5 @@
+Number,Incidents,Root cause,RCA date,State
+PRB0007012,INC0041332,"The SSL profile change removed a TLS 1.2 cipher suite still used by the acquirer link; the pre-production pool does not connect to the acquirer, so the test did not catch it",2026-07-17,Resolved
+PRB0007040,INC0042577,Session store volume filled up after session expiry stopped running; no disk usage alert was configured on the identity nodes and no synthetic login check existed,2026-08-10,Fix in progress
+PRB0007066,INC0043656,Carrier SIP trunk failure on gateway 2; gateway 1 was not in the automatic failover group for the rates desk lines,2026-08-28,Fix in progress
+PRB0007101,INC0044652,"The sender channel stopped after a certificate reload and the queue depth alert only reached the console, which nobody watches between 01:00 and 03:00",2026-09-25,Fix in progress

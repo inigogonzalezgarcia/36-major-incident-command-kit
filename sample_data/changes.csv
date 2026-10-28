@@ -1,0 +1,28 @@
+Number,Business service,Configuration item,Planned start,Planned end,Type,State,Short description
+CHG0032391,Core banking batch,cb-batch-01,2026-07-06 22:00,2026-07-07 00:00,Normal,Closed,Batch scheduler patching
+CHG0032440,Branch network,sdwan-hub-01,2026-07-08 21:00,2026-07-08 22:00,Standard,Closed,SD-WAN firmware update
+CHG0032321,Virtual desktops,vdi-pool-01,2026-07-11 22:00,2026-07-12 01:00,Standard,Closed,Golden image monthly update
+CHG0032384,Email & collaboration,exo-hybrid-01,2026-07-11 22:00,2026-07-12 00:00,Standard,Closed,Connector certificate renewal
+CHG0032363,Virtual desktops,vdi-pool-01,2026-07-13 20:00,2026-07-13 23:00,Standard,Closed,Golden image monthly update
+CHG0031102,Card payments,auth-switch-01,2026-07-13 22:00,2026-07-13 23:30,Normal,Closed,Load balancer SSL profile update on the authorisation pool
+CHG0032300,Email & collaboration,exo-hybrid-01,2026-07-26 21:00,2026-07-27 00:00,Standard,Closed,Connector certificate renewal
+CHG0032328,Data warehouse,dwh-etl-01,2026-07-29 21:00,2026-07-29 23:00,Normal,Closed,ETL job dependency change
+CHG0031890,Online banking,ob-idp-cluster,2026-07-30 21:00,2026-07-30 22:00,Standard,Closed,Identity provider monthly patching
+CHG0032461,Treasury apps,trs-app-02,2026-08-08 21:00,2026-08-09 00:00,Normal,Closed,Application server patching
+CHG0032314,Branch network,sdwan-hub-01,2026-08-14 21:00,2026-08-15 00:00,Standard,Closed,SD-WAN firmware update
+CHG0032349,Core banking batch,cb-batch-01,2026-08-14 21:00,2026-08-14 22:00,Standard,Closed,Batch scheduler patching
+CHG0032356,Branch network,sdwan-hub-01,2026-08-19 20:00,2026-08-19 23:00,Normal,Closed,SD-WAN firmware update
+CHG0032454,Data warehouse,dwh-etl-01,2026-08-20 22:00,2026-08-20 23:00,Standard,Closed,ETL job dependency change
+CHG0032419,Treasury apps,trs-app-02,2026-08-22 20:00,2026-08-22 23:00,Normal,Closed,Application server patching
+CHG0032433,Core banking batch,cb-batch-01,2026-08-24 20:00,2026-08-24 22:00,Standard,Closed,Batch scheduler patching
+CHG0032398,Branch network,sdwan-hub-01,2026-08-24 22:00,2026-08-24 23:00,Standard,Closed,SD-WAN firmware update
+CHG0032370,Data warehouse,dwh-etl-01,2026-08-30 22:00,2026-08-31 00:00,Standard,Closed,ETL job dependency change
+CHG0032447,Virtual desktops,vdi-pool-01,2026-08-31 21:00,2026-08-31 23:00,Normal,Closed,Golden image monthly update
+CHG0032426,Email & collaboration,exo-hybrid-01,2026-08-31 22:00,2026-09-01 01:00,Standard,Closed,Connector certificate renewal
+CHG0032412,Data warehouse,dwh-etl-01,2026-09-03 22:00,2026-09-03 23:00,Normal,Closed,ETL job dependency change
+CHG0032335,Treasury apps,trs-app-02,2026-09-05 22:00,2026-09-06 00:00,Standard,Closed,Application server patching
+CHG0032342,Email & collaboration,exo-hybrid-01,2026-09-09 22:00,2026-09-09 23:00,Standard,Closed,Connector certificate renewal
+CHG0032307,Core banking batch,cb-batch-01,2026-09-17 22:00,2026-09-18 00:00,Standard,Closed,Batch scheduler patching
+CHG0032405,Virtual desktops,vdi-pool-01,2026-09-18 21:00,2026-09-18 22:00,Normal,Closed,Golden image monthly update
+CHG0032250,Market data,mdfeed-ldn-01,2026-09-20 08:00,2026-09-20 10:00,Standard,Closed,Feed handler configuration backup
+CHG0032377,Treasury apps,trs-app-02,2026-09-29 21:00,2026-09-29 23:00,Standard,Closed,Application server patching
